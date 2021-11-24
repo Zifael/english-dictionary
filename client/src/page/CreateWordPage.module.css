@@ -1,0 +1,116 @@
+.createWordInfo {   
+    position: absolute; 
+    margin: 20px 25% 0px 25%;
+    width: 50%;
+    height: 80%;    
+    background: #fff;
+    box-shadow: -10px 40px 24px rgb(0 0 0 / 10%);
+    padding: 30px;
+    overflow: auto;
+}
+
+.close {
+    display: flex;
+    margin-left: 95%;    
+    background-color: rgb(241, 72, 72);
+    border: 1px solid rgb(241, 72, 72);    
+    border-radius: 3px;
+    padding: 3px;    
+    color:white
+}
+
+.titleCreateWord {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.createWordBlock {
+    width: 362px;
+    margin: 0 auto;
+}
+
+.createWords {
+    display: flex;
+    justify-content: center;
+}
+
+.englishWord {
+    margin-right: 5px;
+}
+
+.titleWord {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.inputWord {
+    margin-top: 5px;
+    padding: 3px;
+    border: 1px solid rgb(165, 158, 158);
+    border-radius: 2px;
+    outline: none;   
+    
+}
+
+.inputWord:focus {    
+    border: 1px solid #00bfff;
+}
+
+.infoAdding {    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    color:rgb(28, 31, 218);    
+}
+
+.textarea {
+    resize: none;
+    width: 99%;
+    height: 55%;
+    max-height: 100%;
+    outline: none;
+    border: 0.1px solid #ccc;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 5px;
+}
+
+.addInfo {
+    display: flex;
+    justify-content: center;
+    margin:  20px 0;
+    font-weight: 600;
+}
+
+
+
+.addInfoButton {
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    background-color : #00bfff;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.blockButtonAddWord {
+    display: flex;
+    justify-content: center;
+}
+
+.addWordButton {    
+    margin-top: 5px;
+    width: 100%;
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    background-color : rgb(26, 173, 26);
+    border: none;
+    border-radius: 3px;
+}

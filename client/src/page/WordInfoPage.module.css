@@ -1,0 +1,64 @@
+.oneWord {
+    max-width: 800px;
+    width: 100%;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 3px;    
+}
+
+.oneWordContent {
+    padding: 20px;   
+}
+
+.oneWordTitle {
+    margin-top: 10px;
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+}
+.info {
+    margin: 0 auto;
+}
+
+.close {
+    border: none;
+    background: white;
+    color:rgb(250, 111, 111);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.oneWordInfo {    
+    margin-top: 20px;
+    padding: 10px;  
+}
+
+.description {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.noDescription {
+    padding: 200px;
+}
+
+.noDescriptionTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reutnMainPage {
+    width: 100%;
+    background-color: rgb(27, 207, 27);    
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px; 
+}
+
